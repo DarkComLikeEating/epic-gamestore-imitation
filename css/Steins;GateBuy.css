@@ -1,0 +1,365 @@
+body{
+	background-color: rgb(28, 28, 28);
+}
+
+.container-fluid{
+	padding: 0px;
+}
+
+
+
+
+/* 顶部导航栏 */
+
+.navbar-inverse{
+	background-color: rgb(42, 42, 42);
+	padding: 0px;
+	margin: 0px;
+	border: 0px;	
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.navbar-brand-epiclogo{
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 22px;
+}
+
+.navbar-btn-getLuncher{
+	border: 0px;
+	border-radius: 0px;
+	height: 50px;
+	width: 128px;
+	background-color: rgb(0, 120, 242);
+	font-size: 10px;
+}
+
+.navbar-btn-getLuncher:hover{
+	background-color: rgb(0, 125, 252);
+}
+
+
+
+
+/* 固定导航栏 */
+
+.navbar-sec{
+	background-color: rgb(28, 28, 28);
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+	margin-top: 1px;
+	position: sticky;
+	z-index: 2;
+}
+
+.navbar-sec-exp >a:hover{
+	color: rgb(255, 255, 255);
+}
+
+.navbar-sec-src{
+	background-color: rgb(42, 42, 42);
+	border: 0px;
+	border-radius: 25px;
+}
+
+/* 游戏详细信息 */
+
+.SGtype{
+	padding: 0px;
+	margin: 10px;
+}
+
+.SGtype a{
+	color: rgb(255, 255, 255);
+}
+
+.SGdetail h4{ 
+	color: rgb(255, 255, 255);
+}
+
+.SGdetail{
+	color: rgb(158, 158, 158);
+}
+
+/* SGpics */
+
+.SGPics-mid{
+	width: 70%;
+	height: 70%;
+	margin: 10px;
+	margin-left: 80px;
+}
+
+.SGPics-side{
+	width: 45%;
+	height: 50%;
+	margin: 10px;
+}
+
+/* SGVersions */
+
+.SGversions div{
+	padding: 0px;
+	margin: 0px;
+}
+
+.SGversions .thumbnail{
+	background-color: rgb(38, 38, 38);
+	border: 0px;
+	padding: 0px;
+	margin-top: 30px;
+}
+
+.SGversions h4{
+	color: rgb(255, 255, 255);
+	margin-top: 15px;
+}
+
+.SGversions h3{
+	color: rgb(255, 255, 255);
+}
+
+.SGversions p{
+	color: rgb(255, 255, 255);
+}
+
+.SGbundle img{
+	border-radius: 5px;
+}
+
+
+
+
+/* Subscribe */
+
+.Subscribe h4{
+	color: rgb(255, 255, 255);
+	margin-top: 15px;
+}
+
+.Subscribe div{
+	background-color: rgb(38, 38, 38);
+	border-radius: 5px;
+}
+
+.Subscribe div ul{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin-left: -30px;
+}
+
+.Subscribe div ul li{
+	margin: 10px;
+	padding: 0px;
+	list-style: none;
+	margin: 10px auto;
+}
+
+.Subscribe div ul li a{
+	text-decoration: none;
+	margin: auto;
+}
+
+.Subscribe div ul li span{
+	font-size: 28px;
+	color: rgb(204, 204, 204);
+}
+
+.Subscribe span:hover{
+	color: rgb(245, 245, 245);
+}
+
+
+/* REviews */
+
+.Reviews h4{
+	margin-top: 30px;
+	color: rgb(245, 245, 245);
+}
+
+.Reviews .col-md-4{
+	padding: 0px;
+	
+}
+
+.Reviews .thumbnail{
+	border: 0px;
+	background-color: rgb(38, 38, 38);
+}
+
+.Reviews h3{
+	color: rgb(162, 162, 162);
+}
+
+.Reviews .caption p{
+	color: rgb(160, 160, 160);
+}
+
+
+/* SGSystemRequire */
+
+.SGSystemRequire h4{
+	color: rgb(245, 245, 245);
+}
+
+.SGSystemRequire .panel{
+	border: 0px;
+	background-color:rgb(38, 38, 38);
+}
+
+.SGSystemRequire .panel-heading{
+	color: rgb(245, 245, 245);
+	background-color: rgb(38, 38, 38);
+}
+
+.SGSystemRequire h6{
+	color: rgb(245, 245, 245);
+}
+
+/* 游戏购买菜单 */
+
+.buynow{
+	color: rgb(38, 38, 38);
+}
+
+.buynow button{
+	width: 140%; 
+	height: 50px; 
+	margin:15px 0px 0px 0px; 
+	border-radius: 5px; 
+	border: 0px;
+	color: rgb(245, 245, 245);
+	background-color: rgb(139, 64, 53);
+}
+
+.shopcart button{
+	width: 140%;
+	height: 50px; 
+	margin:15px 0px 0px 0px; 
+	border-radius: 5px; 
+	border: 1px solid rgb(158, 158, 158);
+	color: rgb(245, 245, 245);
+	background-color: rgb(255, 1, 60, 0);
+}
+
+.addToWishlist button{
+	width: 140%;
+	height: 40px; 
+	margin:15px 0px 0px 0px; 
+	border-radius: 5px; 
+	border: 1px solid rgb(158, 158, 158);
+	color: rgb(245, 245, 245);
+	background-color: rgb(255, 1, 60, 0);
+}
+
+.buynow button:hover{
+	background-color: rgb(100, 53, 45);
+}
+
+.shopcart button:hover{
+	background-color: rgb(64, 64, 64);
+}
+
+.addToWishlist button:hover{
+	background-color: rgb(64, 64, 64);
+}
+
+.shopmenu{
+	margin-bottom: 180px;
+	position: sticky;
+	top: 0px;
+}
+
+
+
+
+
+
+/* 页脚CSS */
+
+.footerlinks{
+	margin: 0 auto;
+}
+
+.socialmedia ul{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin-left: -30px;
+}
+
+.socialmedia ul li{
+	margin: 10px;
+	padding: 0px;
+}
+
+.socialmedia ul li span{
+	font-size: 28px;
+	color: rgb(204, 204, 204);
+}
+
+.uptotop a span{
+	float: right;
+	color: rgb(204, 204, 204); 
+	font-size: 28px;
+}
+
+.policy ul{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.footerlinks ul li{
+	list-style: none;
+}
+
+
+.footerlinks ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+.logos a{
+	text-decoration: none;
+	color: rgb(204, 204, 204);
+	float: right;
+	margin: 10px;
+}
+
+.copyright p{
+	color: rgb(245, 245, 245);
+}
+
+.logos a span{
+	font-size: 28px;
+}
+
+.socialmedia span:hover{
+	color: rgb(0, 120, 242);
+}
+
+.logos span:hover{
+	color: rgb(237, 237, 237);
+}
+
+.uptotop span:hover{
+	color: rgb(0, 120, 242);
+}
+
+.footerlinks ul li a:hover{
+	color: rgb(0, 120, 242);
+}

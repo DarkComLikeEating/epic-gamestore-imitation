@@ -1,0 +1,315 @@
+body{
+	background-color: rgb(18, 18, 18);
+}
+
+.container-fluid{
+	padding: 0px;
+}
+
+
+
+
+/* 顶部导航栏 */
+
+.navbar-inverse{
+	background-color: rgb(42, 42, 42);
+	padding: 0px;
+	margin: 0px;
+	border: 0px;	
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.navbar-brand-epiclogo{
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 22px;
+}
+
+.navbar-btn-getLuncher{
+	border: 0px;
+	border-radius: 0px;
+	height: 50px;
+	width: 128px;
+	background-color: rgb(0, 120, 242);
+	font-size: 10px;
+}
+
+.navbar-btn-getLuncher:hover{
+	background-color: rgb(0, 125, 252);
+}
+
+
+
+
+/* 固定导航栏 */
+
+.navbar-sec{
+	background-color: rgb(28, 28, 28);
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+	margin-top: 1px;
+	position: sticky;
+	z-index: 2;
+}
+
+.navbar-sec-exp >a:hover{
+	color: rgb(255, 255, 255);
+}
+
+.navbar-sec-src{
+	background-color: rgb(42, 42, 42);
+	border: 0px;
+	border-radius: 25px;
+}
+
+
+
+
+
+/* 标题图片 */
+
+.short-titlepic{
+	background-color: rgb(32, 32, 32);
+	border-radius: 5px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.short-titlepic img{
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+/* 标题图片介绍 */
+
+.summary h4{
+	color: rgb(255, 255, 255);
+}
+
+.shopmenu div{
+	color: rgb(255, 255, 255);
+}
+
+.price-off{
+	margin: 2px 5px 2px 15px;
+	padding: 0px;
+	width: 43px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+
+.price-off span{
+	color: rgb(51, 51, 51);
+}
+
+.price-ori {
+	padding: 0px;
+	margin: 2px 2px 2px 5px;
+}
+
+.price-ori span{
+	color: rgb(131, 131, 131);
+}
+
+
+.price-now{
+	margin-left: 20px;
+	padding: 0px;
+}
+
+.price-now span{
+	margin-left: 0px;
+	padding: 0px;
+	color: rgb(239, 239, 239);
+}
+
+.buynow button{
+	width: 120%; 
+	height: 50px; 
+	margin:15px 0px 0px 0px; 
+	border-radius: 5px; 
+	border: 0px;
+	color: rgb(245, 245, 245);
+	background-color: rgb(139, 64, 53);
+}
+
+.buynow button:hover{
+	background-color: rgb(100, 53, 45);
+}
+
+.deadline h6{
+	color: rgb(237, 237, 237);
+}
+
+
+
+/* 关于捆绑包正文 */
+
+.AboutBundle{
+	margin-top: 50px;
+	color: rgb(154, 154, 154);
+}
+
+.AboutBundle h4{
+	color: rgb(237, 237, 237);
+}
+
+
+
+/* 捆绑包包括内容 */
+
+.BundleContains{
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+	background-color: rgb(32, 32, 32);
+	border-radius: 10px;
+}
+
+.BCGame{
+	margin: 0px;
+	padding: 0px;
+}
+
+.BCGame-img img{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px;
+}
+
+.BCGame-text{
+	color: rgb(237, 237, 237);
+}
+
+
+
+/* SGSystemRequire */
+
+.SGSystemRequire{
+	margin-top: 50px;
+}
+
+.SGSystemRequire .panel{
+	border: 0px;
+	background-color:rgb(38, 38, 38);
+}
+
+.SGSystemRequire .panel-heading{
+	color: rgb(245, 245, 245);
+	background-color: rgb(38, 38, 38);
+}
+
+.SGSystemRequire h6{
+	color: rgb(245, 245, 245);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 页脚CSS */
+
+.footerlinks{
+	margin: 0 auto;
+}
+
+.socialmedia ul{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin-left: -30px;
+}
+
+.socialmedia ul li{
+	margin: 10px;
+	padding: 0px;
+}
+
+.socialmedia ul li span{
+	font-size: 28px;
+	color: rgb(204, 204, 204);
+}
+
+.uptotop a span{
+	float: right;
+	color: rgb(204, 204, 204); 
+	font-size: 28px;
+}
+
+.policy ul{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.footerlinks ul li{
+	list-style: none;
+}
+
+
+.footerlinks ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+.logos a{
+	text-decoration: none;
+	color: rgb(204, 204, 204);
+	float: right;
+	margin: 10px;
+}
+
+.logos a span{
+	font-size: 28px;
+}
+
+.copyright p{
+	color: rgb(245, 245, 245);
+}
+
+.socialmedia span:hover{
+	color: rgb(0, 120, 242);
+}
+
+.logos span:hover{
+	color: rgb(237, 237, 237);
+}
+
+.uptotop span:hover{
+	color: rgb(0, 120, 242);
+}
+
+.footerlinks ul li a:hover{
+	color: rgb(0, 120, 242);
+}

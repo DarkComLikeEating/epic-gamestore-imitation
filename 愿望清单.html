@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>愿望清单</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/愿望清单.css">
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_3439159_z1fkh7fvyhs.css">
+	</head>
+	<body>
+		
+
+
+		<div id="content">
+			
+			<!-- 顶部导航栏容器 -->
+			<div class="container-fluid">
+			  
+			  <!-- 顶部导航栏1 -->
+			  <nav class="navbar navbar-inverse">
+			    <div class="container-fluid">
+			      <!-- Brand and toggle get grouped for better mobile display -->
+			      <div class="navbar-header">
+			        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			          <span class="sr-only">Toggle navigation</span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			        </button>
+			        <a class="navbar-brand" href="#">
+			                <img class="navbar-brand-epiclogo" alt="Brand" src="img/Epic-Games-logo.png">
+			        </a>
+			      </div>
+			  
+			      <!-- Collect the nav links, forms, and other content for toggling -->
+			      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			        <ul class="nav navbar-nav">
+			          <li><a href="#">商城</a></li>
+					  <li><a href="#">常见问题</a></li>
+					  <li><a href="#">帮助</a></li>
+					  <li><a href="#">虚幻引擎</a></li>
+			        </ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="iconfont icon-language"></span></a>
+					          <ul class="dropdown-menu">
+								<li><a href="#">DEUTSCH</a></li>
+					            <li><a href="#">English</a></li>
+								<li><a href="#">ESPAÑOL(SPAIN)</a></li>
+								<li><a href="#">ESPAÑOL(LA)</a></li>
+								<li><a href="#">ESPAÑOL</a></li>
+								<li><a href="#">ITALIANO</a></li>
+								<li><a href="#">日本語</a></li>
+								<li><a href="#">한국말</a></li>
+								<li><a href="#">POLSKI</a></li>
+								<li><a href="#">Русский</a></li>
+								<li><a href="#">繁體中文</a></li>
+					          </ul>
+					        </li>
+							
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="iconfont icon-account-fill"></span>个人账户 <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#">账户</a></li>
+					            <li><a href="#">我的成就</a></li>
+								<li><a href="#">兑换代码</a></li>
+								<li><a href="#">优惠券</a></li>
+								<li><a href="#">愿望单</a></li>
+								<li><a href="#">登出</a></li>
+					          </ul>
+					        </li>
+							
+							<li>
+								<button type="button" class="btn btn-info navbar-btn-getLuncher">获取客户端</button>
+							</li>
+							
+					</ul>
+			      </div><!-- /.navbar-collapse -->
+			    </div><!-- /.container-fluid -->
+			  </nav>
+			  	
+			</div>
+			
+			
+			<!-- 顶部二级导航栏容器并始终在顶部 -->
+			
+			<nav class="navbar navbar-default navbar-fixed-top navbar-sec">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      
+			    </div>
+			    		
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <form class="navbar-form navbar-left">
+			        <div class="form-group">
+					  <span class="iconfont icon-search iconsrc"></span>
+			          <input type="text" class="form-control navbar-sec-src" placeholder="搜索">
+			        </div>
+			      </form>
+				  <ul class="nav navbar-nav">
+			        <li><a href="#">探索</a></li>
+					<li><a href="#">浏览</a></li>
+					<li><a href="#">新闻</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#content" style="color: rgb(245, 245, 245);">愿望清单</a></li>
+					<li><a href="#">购物车</a></li>
+			      </ul>
+			  </div>
+			</nav>
+			
+			
+			<!-- 愿望清单游戏列表 -->
+			<div class="container"">
+				
+				<div class="row">
+				  <div class="col-md-9 wishlist">
+					  <div class="col-md-12">
+						<h1>愿望清单</h1>
+					  </div>
+					  <div class="col-md-12" style="height: 30px;">
+					  						  
+					  </div>
+					  <div class="col-md-12"">
+						<div class="col-md-6  hidden-sm hidden-xs" style="padding: 0px;">
+							<input type="checkbox">
+							<h5>&nbsp;&nbsp;接收有关我的愿望清单的电子邮件通知。</h5>
+						</div>
+						<div class="col-md-5" style="padding: 0px;">
+							<a href=""><h5>管理所有通讯偏好</h5></a>
+						</div>
+					  </div>
+					  <div class="col-md-12" style="height: 40px;">
+						  
+					  </div>
+					  <div class="col-md-12">
+						  <div class="col-md-2" style="padding: 0px;">
+						  	<h5>排列方式：</h5>
+						  </div>
+						<div class="col-md-10 dropdown" id="dropdownOnSale" style="padding: 0px;">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="padding-left: 0px;">
+						    促销中
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">促销中</a></li>
+						    <li><a href="#">最近添加</a></li>
+						    <li><a href="#">按字母顺序</a></li>
+						    <li><a href="#">价格：由低至高</a></li>
+							<li><a href="#">价格：由高至低</a></li>
+						  </ul>
+						</div>
+					  </div>
+					  
+					  <div class="col-md-12 wishgame">
+					  	<div class="col-md-12 row">
+							<div class="bg col-md-12">
+								<div class="col-md-12">
+								  <div class="thumbnail">
+								    <img class="col-md-3" src="img/steinsgateGamePoster.jpg" alt="Steins;Gate" style="width: 20%; margin: 15px;">
+								    <div class="col-md-9 caption">
+									  <p class="col-md-10"">基础游戏</p>
+									  <p class="col-md-2">￥90</p>
+								      <h3 class="col-md-12" style="margin: 0px; padding: 15px; margin-right: 15px;">Steins;Gate</h3>
+									  <div class="col-md-6 col-md-offset-7">
+										<span class="iconfont icon-windows-fill"></span>
+									  	<p><a href="#" class="btn btn-primary right" role="button">移除</a> <a href="#" class="btn btn-default right" role="button">加入购物车</a></p>
+									  </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+					  	</div>
+					  </div>
+					
+					<div class="col-md-12 wishgame">
+						<div class="col-md-12 row">
+							<div class="bg col-md-12">
+								<div class="col-md-12">
+								  <div class="thumbnail">
+								    <img class="col-md-3" src="img/steinsgateGamePoster.jpg" alt="Steins;Gate" style="width: 20%; margin: 15px;">
+								    <div class="col-md-9 caption">
+									  <p class="col-md-10"">基础游戏</p>
+									  <p class="col-md-2">￥90</p>
+								      <h3 class="col-md-12" style="margin: 0px; padding: 15px; margin-right: 15px;">Steins;Gate</h3>
+									  <div class="col-md-6 col-md-offset-7">
+										<span class="iconfont icon-windows-fill"></span>
+									  	<p><a href="#" class="btn btn-primary right" role="button">移除</a> <a href="#" class="btn btn-default right" role="button">加入购物车</a></p>
+									  </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-12 wishgame">
+						<div class="col-md-12 row">
+							<div class="bg col-md-12">
+								<div class="col-md-12">
+								  <div class="thumbnail">
+								    <img class="col-md-3" src="img/steinsgateGamePoster.jpg" alt="Steins;Gate" style="width: 20%; margin: 15px;">
+								    <div class="col-md-9 caption">
+									  <p class="col-md-10"">基础游戏</p>
+									  <p class="col-md-2">￥90</p>
+								      <h3 class="col-md-12" style="margin: 0px; padding: 15px; margin-right: 15px;">Steins;Gate</h3>
+									  <div class="col-md-6 col-md-offset-7">
+										<span class="iconfont icon-windows-fill"></span>
+									  	<p><a href="#" class="btn btn-primary right" role="button">移除</a> <a href="#" class="btn btn-default right" role="button">加入购物车</a></p>
+									  </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					 
+					
+				  </div>
+				  
+				  <!-- 筛选器导航栏 -->
+				  <div class="col-md-3 filler">
+					  
+					  <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;筛选器</h5>
+					  <hr>
+					  <ul class="list-group" style="background-color: rgb(18, 18, 18);">
+					    <li class="list-group-item" style="background-color: rgb(18, 18, 18); border: 0px;">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    活动
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Epic大特卖</a></li>
+						  </ul>
+						</div>
+						</li>
+					  </ul>
+					  <hr>
+					  <ul class="list-group" style="background-color: rgb(18, 18, 18);">
+					    <li class="list-group-item" style="background-color: rgb(18, 18, 18); border: 0px;">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    游戏类型
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">动作</a></li>
+						    <li><a href="#">冒险</a></li>
+						    <li><a href="#">开放世界</a></li>
+						    <li><a href="#">角色扮演</a></li>
+						  </ul>
+						</div>
+						</li>
+					  </ul>
+					  <hr>
+					  <ul class="list-group" style="background-color: rgb(18, 18, 18);">
+					    <li class="list-group-item" style="background-color: rgb(18, 18, 18); border: 0px;">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    特色
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">单人</a></li>
+						    <li><a href="#">多人</a></li>
+						    <li><a href="#">支持手柄</a></li>
+						  </ul>
+						</div>
+						</li>
+					  </ul>
+					  <hr>
+					  <ul class="list-group" style="background-color: rgb(18, 18, 18);">
+					    <li class="list-group-item" style="background-color: rgb(18, 18, 18); border: 0px;">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    平台
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Windows</a></li>
+						  </ul>
+						</div>
+						</li>
+					  
+					  
+					  
+				  </div>
+				</div>
+			</div>
+			
+			<!-- 页脚 -->
+			
+			<div class="panel-footer" style="background-color: rgb(32, 32, 32); border: 0px; margin-top: 90px;">
+				<div class="container-fluid" style="width: 95%;">
+					
+					<div class="col-md-9 footerlinks socialmedia">
+						<ul>
+							<li><a href=""><span class="iconfont icon-facebookfacebook11"></span></a></li>
+							<li><a href=""><span class="iconfont icon-twitter"></span></a></li>
+							<li><a href=""><span class="iconfont icon-Youtube-fill"></span></a></li>
+						</ul>
+					</div>
+						
+					<div class="col-md-3 uptotop">
+						<a href="#content"><span class="iconfont icon-top"></span></a>
+					</div>
+					
+					<div class="col-md-8 footerlinks" style="padding: 20px;">
+						<span class="col-md-12">资源</span>
+						<ul class="first-column col-md-3">
+							<li><a href="">创作者支持计划</a></li>
+							<li><a href="">在Epic Games上发布</a></li>
+							<li><a href="">职业</a></li>
+							<li><a href="">公司</a></li>
+						</ul>
+						<ul class="second-column col-md-3">
+							<li><a href="">爱好者作品政策</a></li>
+							<li><a href="">用户体验调查</a></li>
+							<li><a href="">商城最终用户授权协议</a></li>
+						</ul>
+						<ul class="third-column col-md-3">
+							<li><a href="">在线服务</a></li>
+							<li><a href="">社区守则</a></li>
+							<li><a href="">Epic Newsroom</a></li>
+						</ul>
+						<span class="col-md-12">由Epic Games开发</span>
+						<ul class="fourth-column col-md-3">
+							<li><a href="">Battle Breakers</a></li>
+							<li><a href="">Fortnite</a></li>
+							<li><a href="">Infinity Blade</a></li>
+						</ul>
+						<ul class="fifth-column col-md-3">
+							<li><a href="">Robo Recall</a></li>
+							<li><a href="">Shadow Complex</a></li>
+							<li><a href="">Unreal Tournament</a></li>
+						</ul>
+					</div>
+					
+					<div class="footerlinks col-md-4 hidden-sm hidden-xs">
+						<ul>
+							<li><img src="img/Snipaste_2022-05-31_13-48-43.png" style="width: 200px; float: right;" alt=""></li>
+						</ul>
+					</div>
+					
+					<div class="col-md-12">
+						<hr>
+					</div>
+					
+					<div class="col-md-12 row copyright" style="padding: 30px; width: 60%;">
+						<p style="margin: 15px;">
+							© 2022, Epic Games, Inc. 版权所有。Epic、Epic Games、Epic Games标志、Fortnite（堡垒之夜）、Fortnite（堡垒之夜）标志、Unreal（虚幻）、Unreal Engine（虚幻引擎）、Unreal Engine（虚幻引擎）标志、Unreal Tournament（虚幻竞技场）以及Unreal Tournament（虚幻竞技场）标志属于Epic Games, Inc.在美利坚合众国及其他地区的商标或已注册商标。其他品牌或产品名称属于其各自拥有者的商标。美国以外事务通过Epic Games International, S.à r.l.办理。
+						</p>
+					</div>
+					
+					<div class="footerlinks policy col-sm-6">
+						<ul style="padding: 15px;">
+							<li><a href="">服务条款&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a href="">隐私政策&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a href="">商店退款政策&nbsp;&nbsp;&nbsp;</a></li>
+						</ul>
+					</div>
+					
+					<div class="footerlinks col-sm-6 logos">
+						<a href=""><span class="iconfont icon-epicgames"></span></a>
+						<a href=""><span class="iconfont icon-unrealengine"></span></a>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
