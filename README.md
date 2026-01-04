@@ -6,12 +6,12 @@
 
 # 在线查看
 
-[命运石之门商品页面](wangzehan.cn/epic-gamestore-imitation)
+[命运石之门商品页面](https://wangzehan.cn/epic-gamestore-imitation/)
 
-[愿望清单页面](wangzehan.cn/epic-gamestore-imitation/wishlist)
+[愿望清单页面](https://wangzehan.cn/epic-gamestore-imitation/wishlist)
 
 # 克隆代码
 
-```
+```bash
 git clone https://github.com/DarkComLikeEating/epic-gamestore-imitation.git
 ```
